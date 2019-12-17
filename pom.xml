@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.springmvc</groupId>
-    <artifactId>hellobeijing</artifactId>
+    <groupId>com.lovelymsart</groupId>
+    <artifactId>fuckingblog</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>hellobeijing Maven Webapp</name>
+    <name>fuckingblog Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://maven.apache.org</url>
 
@@ -240,7 +240,7 @@
         <!-- log end -->
     </dependencies>
     <build>
-        <finalName>helloworld</finalName>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
